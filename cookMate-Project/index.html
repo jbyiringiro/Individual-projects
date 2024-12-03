@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CookMate</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -19,6 +20,23 @@
         <option value="gluten-free">Gluten-Free</option>
         <option value="ketogenic">Ketogenic</option>
       </select>
+      <div class="add-info">
+        <h3>Be Aware</h3>
+        <ul>
+          <li>
+            <Span>Vegan:</Span> Excludes all animal products.
+          </li>
+          <li>
+            <span>Vegetarian:</span> Excludes meat and fish but includes dairy and eggs.
+          </li>
+          <li>
+            <span>Ketogenic:</span> High in fats, low in carbs; promotes ketosis for fat burning.
+          </li>
+          <li>
+            <span>Gluten-Free:</span> Excludes gluten but can include other animal products and carbs.
+          </li>
+        </ul>
+      </div>
       <button id="search-btn">Search Recipes</button>
     </div>
     <div id="results" class="results"></div>
