@@ -129,6 +129,9 @@ span{
   margin-top: 20px;
 }
 
+footer{
+  text-align: center;
+}
 /* Media Queries */
 @media (max-width: 600px) {
   .recipe {
